@@ -1,0 +1,15 @@
+public class BonusPayment2 {
+    public static void main(String[] args) {
+        int itemsSold = 3, totalValue =2000;
+
+        if (itemsSold > 2 && totalValue > 500) {
+            System.out.println("Received Php100 bonus");
+        } else if (itemsSold > 3 && totalValue <= 2000) {
+            System.out.println("Received Php50 bonus");
+        } else {
+            System.out.println("No bonus for you");
+        }
+    }
+}
+
+Received 100php Bonus
