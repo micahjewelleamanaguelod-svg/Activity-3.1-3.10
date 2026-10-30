@@ -10,4 +10,3 @@ public class StudentGrade3 {
             System.out.println("Passed");
     }
 }
-OUTPUT;False
